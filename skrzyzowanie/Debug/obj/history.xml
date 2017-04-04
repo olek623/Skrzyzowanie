@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.4.3 i686-w64-mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\STUDIA\rok 2 semestr 1\mikroprocesory\programy -ID:\STUDIA\rok 2 semestr 1\mikroprocesory\programy\projekt\semihosting -ID:\STUDIA\rok 2 semestr 1\mikroprocesory\programy\projekt\cmsis_boot -ID:\STUDIA\rok 2 semestr 1\mikroprocesory\programy\projekt\stm32_lib -ID:\STUDIA\rok 2 semestr 1\mikroprocesory\programy\projekt -ID:\STUDIA\rok 2 semestr 1\mikroprocesory\programy\projekt\stm32_lib\inc -ID:\STUDIA\rok 2 semestr 1\mikroprocesory\programy\projekt\cmsis_core">
+      <target file="syscalls.o" lastModified="15a3c304dcf">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="158c66b33e3"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="15a3c304c49">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="1584ff43fd7"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="15a3c304833">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="159fb1c4fb1"/>
+      </target>
+      <target file="stm32f0xx_comp.o" lastModified="15a3c304ca6">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_comp.c" lastModified="158c6758892"/>
+      </target>
+      <target file="printf.o" lastModified="15a3c304b5f">
+         <source file="..\..\..\stdio\printf.c" lastModified="158c66b33ef"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="15a3c304e6b">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_usart.c" lastModified="158c54cbda7"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="15a3c304fc2">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="158c6761e18"/>
+      </target>
+      <target file="main.o" lastModified="15a3c304aa3">
+         <source file="..\..\..\main.c" lastModified="15a38e24bd7"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="15a3c304cb6">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="158c66b34d7"/>
+      </target>
+      <target file="semihosting.o" lastModified="15a3c304788">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="158c66b33fa"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="15a3c304f64">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="158c54cb639"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="15a3c304ab3">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="158c67626f6"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="15a3c304bcc">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="158c6762745"/>
+      </target>
+      <target file="stm32f0xx_rtc.o" lastModified="15a3c304d61">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rtc.c" lastModified="158c66b36fd"/>
+      </target>
+   </processor>
+</history>

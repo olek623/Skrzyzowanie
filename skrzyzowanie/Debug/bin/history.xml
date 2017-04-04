@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=skrzyzowanie.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\skrzyzowanie -TC:\CooCox\CoIDE\configuration\ProgramData\skrzyzowanie/arm-gcc-link.ld -g">
+      <target file="skrzyzowanie.elf" lastModified="15a3c3051b5">
+         <source file="..\obj\semihosting.o" lastModified="15a3c304788"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="15a3c304833"/>
+         <source file="..\obj\main.o" lastModified="15a3c304aa3"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="15a3c304ab3"/>
+         <source file="..\obj\printf.o" lastModified="15a3c304b5f"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="15a3c304bcc"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="15a3c304c49"/>
+         <source file="..\obj\stm32f0xx_comp.o" lastModified="15a3c304ca6"/>
+         <source file="..\obj\sh_cmd.o" lastModified="15a3c304cb6"/>
+         <source file="..\obj\stm32f0xx_rtc.o" lastModified="15a3c304d61"/>
+         <source file="..\obj\syscalls.o" lastModified="15a3c304dcf"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="15a3c304e6b"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="15a3c304f64"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="15a3c304fc2"/>
+      </target>
+   </processor>
+</history>
